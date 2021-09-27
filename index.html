@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Weather Dashboard</title>
+    <title>Home - Latitude vs. X</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
@@ -20,12 +20,9 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Visualizations
+                Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="viz_cloudiness.html">Cloudiness</a>
@@ -37,35 +34,42 @@
                 <a class="dropdown-item" href="viz_wind_speed.html">Wind Speed</a>
               </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparison</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
           </ul>     
         </div>
-      </nav>
+    </nav>
 
-        <div class="row">
-          <div class="col-md-8 bg-secondary text-white pt-3">
-            <img src="./Resources/assets/images/rain-and-sun-shutterstock.jpeg" class="img-fluid"/>
+      <div class="container-fluid" style="padding:10px;">
+        <div class="row" style="padding:10px;margin:65px">
+          <div class="col-md-8 bg-light pt-3">
+            <img src="./Resources/assets/images/rain-and-sun-shutterstock.jpeg" class="img-fluid mx-auto d-block"/>
             <br><br>
-            <h2>Weather - Latitude vs. X</h2>
+            <h2>Weather | Latitude vs. X</h2>
             <p>The purpose of this project was to analyze the relationship between latitude and various attributes of weather. To accomplish this, weather data was extracted from the OpenWeatherMap API from over 500 random cities.</p>
             <p>After cleaning the dataset, Matplotlib was used to plot these relationships across latitudes. Weather attributes included: cloudiness, humidity, max temperature, and wind speed. This site can be used to view each vizualization created as part of the analysis and explanation of any trends or correlations, as well as the original dataset. </p>
           </div>
           <div class="col-md-4">
+            <br>
             <h2 class="text-center">
                 Visualizations
             </h2>
             <h6 class="text-center">
-                Click any plot below to navigate to it:
+                Click any plot below for in-depth analysis:
             </h6>
             <div class="row">
-                <div class="col-md-6"> <a href="viz_cloudiness.html"> <img src="./Resources/assets/images/Fig3.png" class="img-fluid"/> </a> </div>
-                <div class="col-md-6"> <a href="viz_humidity.html"> <img src="./Resources/assets/images/Fig2.png" class="img-fluid"/> </a> </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6"> <a href="viz_max_temperature.html"> <img src="./Resources/assets/images/Fig1.png" class="img-fluid"/> </a> </div>
-                <div class="col-md-6"> <a href="viz_wind_speed.html"> <img src="./Resources/assets/images/Fig4.png" class="img-fluid"/> </a> </div>
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_cloudiness.html"> <img src="./Resources/assets/images/Fig3.png" class="img-fluid"/> </a> </div>
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_humidity.html"> <img src="./Resources/assets/images/Fig2.png" class="img-fluid"/> </a> </div>
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_max_temperature.html"> <img src="./Resources/assets/images/Fig1.png" class="img-fluid"/> </a> </div>
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_wind_speed.html"> <img src="./Resources/assets/images/Fig4.png" class="img-fluid"/> </a> </div>
             </div>
           </div>
         </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
