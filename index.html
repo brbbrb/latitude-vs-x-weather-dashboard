@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude vs. X</a>
+        <a class="navbar-brand" href="index.html">Latitude vs. X</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +25,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Vizualizations
+                Visualizations
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="viz_cloudiness.html">Cloudiness</a>
@@ -41,7 +41,6 @@
         </div>
       </nav>
 
-      <div class="container bg-light">
         <div class="row">
           <div class="col-md-8 bg-secondary text-white pt-3">
             <img src="./Resources/assets/images/rain-and-sun-shutterstock.jpeg" class="img-fluid"/>
@@ -51,27 +50,23 @@
             <p>After cleaning the dataset, Matplotlib was used to plot these relationships across latitudes. Weather attributes included: cloudiness, humidity, max temperature, and wind speed. This site can be used to view each vizualization created as part of the analysis and explanation of any trends or correlations, as well as the original dataset. </p>
           </div>
           <div class="col-md-4">
-            <br>
             <h2 class="text-center">
-                Vizualizations
+                Visualizations
             </h2>
             <h6 class="text-center">
                 Click any plot below to navigate to it:
             </h6>
-            <div class="row">
               </div>
-            <div class="container-fluid">
-                <a href="viz_cloudiness.html"> <img src="./Resources/assets/images/Fig3.png" class="img-fluid w-50"/> </a>
-                <br><br>
-                <a href="viz_humidity.html"> <img src="./Resources/assets/images/Fig2.png" class="img-fluid w-50"/> </a>
-                <br><br>
-                <a href="viz_max_temperature.html"> <img src="./Resources/assets/images/Fig1.png" class="img-fluid w-50"/> </a>
-                <br><br>
-                <a href="viz_wind_speed.html"> <img src="./Resources/assets/images/Fig4.png" class="img-fluid w-50"/> </a>
+            <div class="row">
+                <div class="col-md-6"> <a href="viz_cloudiness.html"> <img src="./Resources/assets/images/Fig3.png" class="img-fluid"/> </a> </div>
+                <div class="col-md-6"> <a href="viz_humidity.html"> <img src="./Resources/assets/images/Fig2.png" class="img-fluid"/> </a> </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"> <a href="viz_max_temperature.html"> <img src="./Resources/assets/images/Fig1.png" class="img-fluid"/> </a> </div>
+                <div class="col-md-6"> <a href="viz_wind_speed.html"> <img src="./Resources/assets/images/Fig4.png" class="img-fluid"/> </a> </div>
             </div>
           </div>
         </div>
-      </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
