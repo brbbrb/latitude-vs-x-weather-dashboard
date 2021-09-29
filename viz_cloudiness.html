@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Latitude vs. Cloudiness</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Latitude vs. X</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="viz_cloudiness.html">Cloudiness</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="viz_humidity.html">Humidity</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="viz_max_temperature.html">Max Temperature</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="viz_wind_speed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparison</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+          </ul>     
+        </div>
+    </nav>
+
+      <div class="container-fluid" style="padding:10px;">
+        <div class="row" style="padding:10px;margin:10px">
+          <div class="col-md-8 bg-light pt-3">
+            <h1>Plots | Latitude vs. Cloudiness</h1>
+            <div> <img src="./Resources/assets/images/Fig3.png" class="img-fluid"/> </div>
+            <p> <b>SUMMARY:</b> I used matplotlib to plot the relationship between Latitude and Cloudiness for each city, as requested from the OpenWeather API. Each dot on the scatterplot represents one city.</p>
+            <p> <b>ANALYSIS:</b> The scatterplot does not show any sort of correlation between City Latitude and Cloudiness. Further research could be done into why there are so many locations at ~95%, ~78%, and 0% Cloudiness. </p>
+          </div>
+          <div class="col-md-4">
+            <br>
+            <h2 class="text-center">
+                Visualizations
+            </h2>
+            <h6 class="text-center">
+                Click any plot below for in-depth analysis:
+            </h6>
+            <div class="row">
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_cloudiness.html"> <img src="./Resources/assets/images/Fig3.png" class="img-fluid"/> </a> </div>
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_humidity.html"> <img src="./Resources/assets/images/Fig2.png" class="img-fluid"/> </a> </div>
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_max_temperature.html"> <img src="./Resources/assets/images/Fig1.png" class="img-fluid"/> </a> </div>
+                <div class="col-sm-3 col-md-12 col-lg-12 col-xl-6"> <a href="viz_wind_speed.html"> <img src="./Resources/assets/images/Fig4.png" class="img-fluid"/> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
