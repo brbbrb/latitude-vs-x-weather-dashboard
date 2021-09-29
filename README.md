@@ -1,5 +1,7 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+This project uses data collected from a previous project to practice HTML, CSS, and Python skills in order to create a website. This website can be viewed here: https://brbbrb.github.io/web-design-challenge/
+
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
