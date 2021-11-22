@@ -1,6 +1,6 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Latitude vs. X Dashboard
 
-This project uses data collected from a previous project to practice HTML, Bootstrap, and Python skills in order to create a website. This website can be viewed here: https://brbbrb.github.io/web-design-challenge/
+This project uses data collected from a previous project to practice HTML, Bootstrap, and Python skills in order to create a website. This website can be viewed here: https://brbbrb.github.io/Latitude-vs-X-Dashboard/
 
 ## Background
 
@@ -134,16 +134,8 @@ Large screen:
 Small screen:
 ![nav menu small screen](Images/nav-sm.png)
 
-## Rubric
-
-[Unit 11 Rubric - Web Design Homework - Web Visualization Dashboard](https://docs.google.com/document/d/16RJehl9qVOxdj7o7hUwvdlsoyrA_-kaoB8CGwr9LX_Y/edit?usp=sharing)
-
 - - -
 
 ## References
 
 OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
