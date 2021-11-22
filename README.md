@@ -1,6 +1,6 @@
-# Latitude vs. X Dashboard
+# Latitude vs. X: Weather Dashboard
 
-This project uses data collected from a previous project to practice HTML, Bootstrap, and Python skills in order to create a website. This website can be viewed here: https://brbbrb.github.io/Latitude-vs-X-Dashboard/
+This project uses data collected from a previous project to practice HTML, Bootstrap, and Python skills in order to create a website. This website can be viewed here: https://brbbrb.github.io/latitude-vs-x-weather-dashboard/
 
 ## Background
 
